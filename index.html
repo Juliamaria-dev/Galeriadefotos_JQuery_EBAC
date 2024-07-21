@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <tittle>JQuery</tittle>
+        <link rel="precconect" href="http://fonts.googleapis.com">
+        <link rel="precconect" href="http://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./main.css">
+        <style type="text/css" id="operaUserStyle"></style>
+    </head>
+    <body>
+        <header> 
+            <h1>Galeria de Fotos</h1>
+            <button type="button">Nova Imagem +</button>
+        </header>
+        <form> 
+            <h2>Inserir nova Imagem</h2>
+            <input type="url" required placeholder="URL da imagem">
+            <button type="submit">Adicionar</button>
+            <button type="reset"id="botao-cancelar">Cancelar</button>
+        </form>
+        <ul>
+            <li>
+                <img src="./foto1.jpg" alt="Pintura de um gato" />
+                <div class="overlay-imagem-link">
+                    <a href="./foto1.jpg" target="_blank" title="Ver imagem em tamanho real">
+                        Ver imagem em tamanho real
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="./foto2.jpg" alt="Flamingo animal" />
+                <div class="overlay-imagem-link">
+                    <a href="./foto2.jpg" target="_blank" title="Ver imagem em tamanho real">
+                        Ver imagem em tamanho real
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="./foto3.jpg" alt="Cachorros filhotes" />
+                <div class="overlay-imagem-link">
+                    <a href="./foto3.jpg" target="_blank" title="Ver imagem em tamanho real">
+                        Ver imagem em tamanho real
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
